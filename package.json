@@ -1,13 +1,12 @@
 {
   "name": "bech32m",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "bech32m",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nostrapps/bech32m.git"
@@ -24,6 +23,5 @@
     "url": "https://github.com/nostrapps/bech32m/issues"
   },
   "homepage": "https://github.com/nostrapps/bech32m#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
