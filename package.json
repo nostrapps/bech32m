@@ -1,0 +1,29 @@
+{
+  "name": "bech32m",
+  "version": "0.0.0",
+  "description": "bech32m",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostrapps/bech32m.git"
+  },
+  "keywords": [
+    "nostr",
+    "bech32",
+    "bech32m",
+    "app"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nostrapps/bech32m/issues"
+  },
+  "homepage": "https://github.com/nostrapps/bech32m#readme",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bech32m Encoding Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      label,
+      button {
+        display: block;
+        margin: 1em 0;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.5em;
+      }
+    </style>
+    <script type="module">
+      import { encodeBech32mAddress } from './index.js'
+
+      window.displayAddress = function () {
+        const publicKeyInput = document.getElementById('public-key-input')
+        const publicKey = publicKeyInput.value.trim()
+        const taproot = encodeBech32mAddress(publicKey)
+
+        const publicKeyDisplay = document.getElementById('public-key-display')
+        const taprootDisplay = document.getElementById('taproot-display')
+
+        publicKeyDisplay.textContent = publicKey
+        taprootDisplay.textContent = taproot
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Bech32m Encoding Example</h1>
+    <label for="public-key-input">Public Key:</label>
+    <input
+      type="text"
+      value="9ecb7085a69535b531c7877662086277804683b598101fe5984c30a371d5aa11"
+      id="public-key-input"
+      placeholder="Enter public key"
+    />
+    <button onclick="displayAddress()">Encode Bech32m Address</button>
+    <h2>Public Key:</h2>
+    <pre id="public-key-display"></pre>
+    <h2>Encoded Bech32m Address:</h2>
+    <pre id="taproot-display"></pre>
+  </body>
+</html>
