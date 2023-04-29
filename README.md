@@ -17,8 +17,8 @@
 ---
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nostrapps/bech32m/blob/gh-pages/LICENSE)
-[![npm](https://img.shields.io/npm/v/bech32m)](https://npmjs.com/package/bech32m)
-[![npm](https://img.shields.io/npm/dw/bech32m.svg)](https://npmjs.com/package/bech32m)
+[![npm](https://img.shields.io/npm/v/bech32lib)](https://npmjs.com/package/bech32lib)
+[![npm](https://img.shields.io/npm/dw/bech32lib.svg)](https://npmjs.com/package/bech32lib)
 [![Github Stars](https://img.shields.io/github/stars/nostrapps/bech32m.svg)](https://github.com/nostrapps/bech32m/)
 
 
